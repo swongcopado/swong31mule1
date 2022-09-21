@@ -9,6 +9,6 @@ http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/htt
 	</http:listener-config>
 	<flow name="swong31mule1Flow" doc:id="2028105d-1f75-4592-8f38-14ee44b70385" >
 		<http:listener doc:name="Listener" doc:id="950e84de-3fed-4c88-889e-bfc51e0cb5fd" config-ref="HTTP_Listener_config" path="/hello"/>
-		<set-payload value="copado demonstration" doc:name="Set Payload" doc:id="9ed02681-a17b-4d70-b1e1-1156f36b761b" />
+		<set-payload value="hello ando insurance!" doc:name="Set Payload" doc:id="9ed02681-a17b-4d70-b1e1-1156f36b761b" />
 	</flow>
 </mule>
